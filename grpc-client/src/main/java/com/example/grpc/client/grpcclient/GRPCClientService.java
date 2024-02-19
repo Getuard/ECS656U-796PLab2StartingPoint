@@ -50,8 +50,7 @@ public class GRPCClientService {
 		    .build();
 		    MatrixServiceGrpc.MatrixServiceBlockingStub stub
 		     = MatrixServiceGrpc.newBlockingStub(channel);
-		    // Assuming the multBlock method exists and is similar to addBlock but for multiplication
-		    MatrixReply result = stub.multBlock(MatrixRequest.newBuilder()
+		    MatrixReply result = stub.MultiplyBlock (MatrixRequest.newBuilder()
 		        .setA00(1)
 		        .setA01(2)
 		        .setA10(5)
