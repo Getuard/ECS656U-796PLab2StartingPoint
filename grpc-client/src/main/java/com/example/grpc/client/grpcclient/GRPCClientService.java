@@ -55,12 +55,12 @@ public class GRPCClientService {
 		        .setA01(2)
 		        .setA10(5)
 		        .setA11(6)
-		        .setB00(1)
-		        .setB01(2)
-		        .setB10(5)
-		        .setB11(6)
+		        .setB00(4)
+		        .setB01(6)
+		        .setB10(12)
+		        .setB11(14)
 		        .build());
-	    	    String response= result.getC00() + result.getC01() + result.getC10() + result.getC11() + "";
+	    	    String response= result.getC00()+result.getC01()+result.getC10()+result.getC11()+"";
 		    channel.shutdown();
 		    return response;
 	}
