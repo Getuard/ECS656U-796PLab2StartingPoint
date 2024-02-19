@@ -29,6 +29,12 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
+	        </dependency>
 
 		<!-- For both -->
 		<dependency>
@@ -60,12 +66,6 @@
 			<version>2.5.1.RELEASE</version>
 			<type>pom</type>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.30</version>
-			<scope>provided</scope>
-	        </dependency>
 
 	</dependencies>
 
