@@ -60,7 +60,7 @@ public class GRPCClientService {
 		        .setB10(5)
 		        .setB11(6)
 		        .build());
-		    String response = result.getC00() + " " + result.getC01() + "<br>" + result.getC10() + " " + result.getC11() + "\n";
+	    	    String response= result.getC00() + result.getC01() + result.getC10() + result.getC11() + "";
 		    channel.shutdown();
 		    return response;
 	}
