@@ -28,4 +28,9 @@ public class PingPongEndpoint {
 	public String add() {
 		return grpcClientService.add();
 	}
+	// New endpoint for matrix multiplication
+	@GetMapping("/mult")
+	public String mult() {
+	        return grpcClientService.mult();
+	}
 }
