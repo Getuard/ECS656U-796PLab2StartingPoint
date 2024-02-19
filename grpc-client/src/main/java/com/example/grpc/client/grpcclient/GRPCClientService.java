@@ -50,7 +50,7 @@ public class GRPCClientService {
 		    .build();
 		    MatrixServiceGrpc.MatrixServiceBlockingStub stub
 		     = MatrixServiceGrpc.newBlockingStub(channel);
-		    MatrixReply result = stub.MultiplyBlock (MatrixRequest.newBuilder()
+		    MatrixReply result = stub.MultiplyBlock(MatrixRequest.newBuilder()
 		        .setA00(1)
 		        .setA01(2)
 		        .setA10(5)
